@@ -1,0 +1,48 @@
+Feature,Description
+label,intrusion type
+flow duration,Duration of the packet's flow
+Header Length,Header Length
+Protocol Type,"IP, UDP, TCP, ICMP, ICMP, Unknown (Integers)"
+Duration,Time-to-Live (ttl)
+Rate,Rate of packet transmission in a flow
+Srate,Rate of outbound packets transmission in a flow
+Drate,Rate of inbound packets transmission in a flow
+fin flag number,Fin flag value
+syn flag number,Syn flag value
+rst flag number,Rst flag value
+psh flag number,Psh flag value
+ack flag number,Ack flag value
+ece flag number,Ece flag value
+cwr flag number,Cwr flag value
+ack count,Number of packets with ack flag set in the same flow
+syn count,Number of packets with syn flag set in the same flow
+fin count,Number of packets with fin flag set in the same flow
+urg count,Number of packets with urg flag set in the same flow
+rst count,Number of packets with rst flag set in the same flow
+HTTP,Indicates if the application layer protocol is HTTP
+HTTPS,Indicates if the application layer protocol is HTTPS
+DNS,Indicates if the application layer protocol is DNS
+Telnet,Indicates if the application layer protocol is Telnet
+SMTP,Indicates if the application layer protocol is SMTP
+SSH,Indicates if the application layer protocol is SSH
+IRC,Indicates if the application layer protocol is IRC
+TCP,Indicates if the transport layer protocol is TCP
+UDP,Indicates if the transport layer protocol is UDP
+DHCP,Indicates if the application layer protocol is DHCP
+ARP,Indicates if the link layer protocol is ARP
+ICMP,Indicates if the network layer protocol is ICMP
+IPv,Indicates if the network layer protocol is IP
+LLC,Indicates if the link layer protocol is LLC
+Tot sum,Summation of packets lengths in flow
+Min,Minimum packet length in the flow
+Max,Maximum packet length in the flow
+AVG,Average packet length in the flow
+Std,Standard deviation of packet length in the flow
+Tot size,Packet's length
+IAT,The time difference with the previous packet
+Number,The number of packets in the flow
+Magnitude,(Average of the lengths of incoming packets in the flow + average of the lengths of outgoing packets in the flow)^0.5
+Radius,(Variance of the lengths of incoming packets in the flow + variance of the lengths of outgoing packets in the flow)^0.5
+Covariance,Covariance of the lengths of incoming and outgoing packets
+Variance,Variance of the lengths of incoming packets in the flow/ variance of the lengths of outgoing packets in the flow
+Weight,Number of incoming packets x Number of outgoing packets
